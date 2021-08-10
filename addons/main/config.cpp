@@ -1,11 +1,12 @@
+#include "script_component.hpp"
+
 class CfgPatches {
-    class WB_fix_vanilla_TFAR_compat {
-        name = "Weapons balance - Fix basegame - TFAR compat";
+    class ADDON {
+        name = COMPONENT_NAME;
         units[] = {};
         weapons[] = {};
-        requiredVersion = 1.96;
+        requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
-            "WB_fix_vanilla",
             "tfar_backpacks"
         };
         author = "johnb43";

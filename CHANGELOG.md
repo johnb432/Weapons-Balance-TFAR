@@ -1,5 +1,12 @@
-# Changelog for Weapons balance 11.02.2021
+# Changelog for Weapons balance 9.8.2021
 
+1.1.0.0
+- Added hemtt support
+- Added all TFAR backpack balancing
+
+# Changelog for Weapons balance 11.2.2021
+
+1.0.0.0
 - Vehicles:
     - Vanilla:
         - Tracked APCs:
