@@ -1,3 +1,11 @@
+# Changelog for Weapons balance 1.11.2021
+
+1.1.0.1
+- Vehicles:
+    - Vanilla:
+        - All Tanks & similar:
+            - Added all TFAR intercom channels. **This affects other vehicles from other mods**
+
 # Changelog for Weapons balance 9.8.2021
 
 1.1.0.0
