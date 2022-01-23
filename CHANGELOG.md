@@ -1,4 +1,15 @@
-# Changelog for Weapons balance 1.11.2021
+# Changelog for Weapons Balance 23.1.2022
+
+1.1.0.2
+- Vehicles:
+    - Vanilla:
+        - Land vehicles, boats, planes, helicopters:
+            - Added all TFAR intercom channels. **This affects other vehicles from other mods**
+            Intercoms will only show if "TFAR_hasIntercom" in the vehicle config is 1
+        - SDV:
+            - Added all TFAR intercom channels.
+
+# Changelog for Weapons Balance 1.11.2021
 
 1.1.0.1
 - Vehicles:
@@ -6,13 +17,13 @@
         - All Tanks & similar:
             - Added all TFAR intercom channels. **This affects other vehicles from other mods**
 
-# Changelog for Weapons balance 9.8.2021
+# Changelog for Weapons Balance 9.8.2021
 
 1.1.0.0
 - Added hemtt support
 - Added all TFAR backpack balancing
 
-# Changelog for Weapons balance 11.2.2021
+# Changelog for Weapons Balance 11.2.2021
 
 1.0.0.0
 - Vehicles:
