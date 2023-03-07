@@ -1,8 +1,10 @@
 class CfgVehicles {
-    class TFAR_Bag_Base;
-    class B_RadioBag_01_base_F: TFAR_Bag_Base {
-        mass = 90;
+    class ReammoBox;
+    class Bag_Base: ReammoBox {
+        tf_range = 40000;
     };
+
+    class B_RadioBag_01_base_F;
     class B_RadioBag_01_black_F: B_RadioBag_01_base_F {
         tf_range = 40000;
     };
@@ -31,47 +33,46 @@ class CfgVehicles {
         tf_range = 40000;
     };
 
+    class TFAR_Bag_Base;
     class TFAR_rt1523g: TFAR_Bag_Base {
-        mass = 70;
-        maximumLoad = 80;
-    };
-    class TFAR_rt1523g_big: TFAR_rt1523g {
-        mass = 100;
+        mass = 75;
         maximumLoad = 160;
     };
+    class TFAR_rt1523g_big: TFAR_rt1523g {
+        mass = 90;
+        maximumLoad = 240;
+    };
     class TFAR_rt1523g_sage: TFAR_rt1523g {
-        mass = 85;
-        maximumLoad = 120;
+        mass = 90;
+        maximumLoad = 240;
     };
 
     class TFAR_mr3000: TFAR_Bag_Base {
-        mass = 100;
-        maximumLoad = 160;
-        tf_range = 40000;
+        mass = 90;
+        maximumLoad = 240;
     };
 
     class TFAR_anprc155: TFAR_Bag_Base {
-        mass = 100;
-        maximumLoad = 160;
-        tf_range = 40000;
+        mass = 90;
+        maximumLoad = 240;
     };
+
     class TFAR_anarc164: TFAR_Bag_Base {
-        mass = 85;
-        maximumLoad = 120;
+        mass = 90;
+        maximumLoad = 240;
     };
     class TFAR_anarc210: TFAR_Bag_Base {
-        mass = 85;
-        maximumLoad = 120;
+        mass = 90;
+        maximumLoad = 240;
     };
     class TFAR_mr6000l: TFAR_Bag_Base {
-        mass = 85;
-        maximumLoad = 120;
+        mass = 90;
+        maximumLoad = 240;
     };
 
     class TFAR_bussole: TFAR_Bag_Base {
-        mass = 70;
-        maximumLoad = 80;
-        tf_range = 40000;
+        mass = 75;
+        maximumLoad = 160;
     };
 
     class Boat_F;
