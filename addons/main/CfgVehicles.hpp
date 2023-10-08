@@ -4,7 +4,9 @@ class CfgVehicles {
         tf_range = 40000;
     };
 
-    class B_RadioBag_01_base_F;
+    class B_RadioBag_01_base_F: Bag_Base {
+        tf_hasLRradio = 1;
+    };
     class B_RadioBag_01_black_F: B_RadioBag_01_base_F {
         tf_range = 40000;
     };
