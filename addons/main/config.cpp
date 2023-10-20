@@ -11,7 +11,9 @@ class CfgPatches {
             "TFAR_IntercomDummy"
         };
         author = "johnb43";
-        authors[] = {"johnb43"};
+        authors[] = {
+            "johnb43"
+        };
         url = "https://github.com/johnb432/Weapons-Balance-TFAR";
         VERSION_CONFIG;
     };
